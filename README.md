@@ -44,10 +44,10 @@ cd basic-backend
 
 Create a file called server.js:
 
+```bash
 touch server.js
-Instructor Tip
 
-Explain this as the entry point of the backend application.
+#3 Explain this as the entry point of the backend application.
 
 Step 2: Create a Simple HTTP Server
 
