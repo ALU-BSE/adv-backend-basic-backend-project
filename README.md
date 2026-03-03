@@ -36,7 +36,7 @@ cd basic-backend
 touch server.js
 ```
 
-Explain that `server.js` is the entry point of the backend application.
+Note that `server.js` is the entry point of the backend application.
 
 ### Step 2: Create a Simple HTTP Server
 Add the following code inside `server.js`:
@@ -81,10 +81,6 @@ Open your browser and test:
 - `http://localhost:3000/about` → `This is the about page.`
 - Any other route → `Page not found`
 
-**Instructor Tip:** Emphasize the request-response cycle:
-
-`Browser -> Server -> Response -> Browser`
-
 ### Step 4: Add a Simple JSON Response
 Add this route inside `server.js`:
 
@@ -103,7 +99,7 @@ You should see JSON output.
 #### Teaching Point
 Servers can send structured data (JSON) to clients.
 
-### Step 5: Optional Folder Organization
+### Step 5: Folder Organization
 Even small apps benefit from organization.
 
 Create this structure:
@@ -228,13 +224,6 @@ Test in browser:
 - `/data` → JSON response
 
 ---
-
-## Wrap-Up Discussion
-Ask students:
-- What is the difference between `/` and `/about`?
-- How does the server know which response to send?
-- Why do we use status codes like `200` and `404`?
-- Why is this folder structure better?
 
 ## Optional Challenge
 Add a `/greet?name=YourName` route.
